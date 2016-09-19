@@ -5,3 +5,4 @@ var Bee = function() {
 };
 
 Bee.prototype = new Grub();
+Bee.prototype.constructor = Bee;
